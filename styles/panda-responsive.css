@@ -25,6 +25,13 @@
   .hero-image img {
     width: 300px;
   }
+
+  .category-cards-container {
+    flex-wrap: wrap;
+  }
+  .card {
+    margin-bottom: 20px;
+  }
 }
 
 /* Tablet devices  starts from 769px to 1024px */
@@ -37,8 +44,18 @@
     flex-direction: column;
     padding: 30px;
   }
+  .hero-content {
+    text-align: center;
+    margin-left: 0;
+  }
   .hero-image img {
     width: 100%;
+  }
+  .category-cards-container {
+    justify-content: center;
+  }
+  .heading {
+    text-align: center;
   }
 }
 
@@ -69,5 +86,8 @@
   }
   .btn {
     padding: 12px 20px;
+  }
+  .card-3-bg {
+    min-width: 288px;
   }
 }

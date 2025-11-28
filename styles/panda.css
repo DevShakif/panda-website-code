@@ -41,6 +41,7 @@
   font-size: 36px;
   font-weight: 600;
   color: #1f1f1f;
+  margin-bottom: 24px;
 }
 .paragraph {
   font-size: 16px;
@@ -96,4 +97,38 @@
 }
 .hero-image img {
   width: 400px;
+}
+
+/* categories styles */
+.categories {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.category-cards-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.card {
+  width: 360px;
+  background-color: rgba(255, 255, 0, 0.473);
+  border-radius: 20px;
+  padding: 13px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+}
+.card h4 {
+  color: black;
+  font-size: 36px;
+  font-weight: 500;
+}
+.card-2-bg {
+  background-color: lightcoral;
+}
+.card-3-bg {
+  background-color: lightskyblue;
+  gap: 15px;
 }
