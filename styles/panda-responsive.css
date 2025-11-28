@@ -29,6 +29,10 @@
 
 /* Tablet devices  starts from 769px to 1024px */
 @media screen and (max-width: 1024px) {
+  .navbar-container {
+    flex-direction: column;
+    gap: 30px;
+  }
   .hero-container {
     flex-direction: column;
     padding: 30px;
