@@ -211,7 +211,7 @@
 /* Media Queries */
 
 /* desktop 1201px  */
-@media screen and (max-width: 1201px) {
+@media screen and (max-width: 1399px) {
   .hero-content * {
     margin-bottom: 5px;
   }
@@ -262,12 +262,10 @@
   .card {
     margin-bottom: 20px;
   }
-  /* .heading {
-    text-align: center;
-  } */
+
   .category-cards-container {
     flex-wrap: wrap;
-    /* gap: 50px; */
+    gap: 50px;
     justify-content: center;
   }
   .shoe-card-container {
