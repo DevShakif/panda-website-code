@@ -267,7 +267,7 @@
   } */
   .category-cards-container {
     flex-wrap: wrap;
-    gap: 50px;
+    /* gap: 50px; */
     justify-content: center;
   }
   .shoe-card-container {
@@ -313,7 +313,7 @@
     padding: 90px 135px;
   }
   .footer-email input {
-    padding: 13px 38px;
+    padding: 13px 37px;
   }
 }
 
@@ -349,6 +349,7 @@
   }
   .card {
     flex-direction: column;
+    margin-bottom: 0;
   }
 
   .shoe-card h4 {
