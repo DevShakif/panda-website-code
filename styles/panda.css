@@ -196,17 +196,170 @@
   font-weight: 500;
   color: #707070;
 }
-/* .footer-email {
-  display: flex;
-  align-items: center;
-} */
+
 .footer-email input {
   width: 450px;
   height: 42px;
   padding: 15px 35px;
+  border: none;
 }
 .footer-btn {
   border-radius: 0;
   margin-left: -4px;
   padding: 12px 35px;
+}
+/* Media Queries */
+
+/* desktop 1201px  */
+@media screen and (max-width: 1201px) {
+  .hero-content * {
+    margin-bottom: 5px;
+  }
+  .hero-content h1 {
+    font-size: 33px;
+    margin-right: 10px;
+    padding-top: 10px;
+  }
+  .hero-image img {
+    width: 350px;
+  }
+
+  .category-cards-container {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .shoe-card * {
+    margin-bottom: 10px;
+  }
+  .shoe-card {
+    padding: 10px;
+  }
+  .shoe-card-container {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+}
+
+/* laptop devices starts from 1025px to 1200px */
+@media screen and (max-width: 1200px) {
+  .hero-content * {
+    margin-bottom: 5px;
+  }
+  .hero-content h1 {
+    font-size: 28px;
+    margin-right: 10px;
+    padding-top: 10px;
+  }
+  .hero-image img {
+    width: 300px;
+  }
+
+  .card {
+    margin-bottom: 20px;
+  }
+  /* .heading {
+    text-align: center;
+  } */
+  .category-cards-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .shoe-card-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .footer-container {
+    padding: 100px 246px;
+  }
+  .footer-heading h4 {
+    font-size: 29px;
+  }
+  .footer-email input {
+    width: 203px;
+    padding: 12px 16px;
+  }
+}
+
+/* Tablet devices  starts from 769px to 1024px */
+@media screen and (max-width: 1024px) {
+  .navbar-container {
+    flex-direction: row-reverse;
+    gap: 30px;
+  }
+  .hero-container {
+    flex-direction: column;
+    padding: 30px;
+  }
+  .hero-content {
+    text-align: center;
+    margin-left: 0;
+  }
+  .hero-image img {
+    width: 100%;
+  }
+  .category-cards-container {
+    justify-content: center;
+  }
+  .heading {
+    text-align: center;
+  }
+  .footer-container {
+    padding: 90px 135px;
+  }
+}
+
+/* android device landscape   starts from 569px to 768px*/
+@media screen and (max-width: 768px) {
+  .hero-container {
+    padding: 15px;
+    text-align: center;
+  }
+  .footer-container {
+    padding: 60px 25px;
+  }
+}
+
+/* android device portrait  maximum 300px */
+@media screen and (max-width: 568px) {
+  .hero-container {
+    flex-direction: column;
+  }
+  .hero-content {
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+  .hero-content h1 {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  .hero-image img {
+    width: 100%;
+  }
+  .btn {
+    padding: 12px 20px;
+  }
+  .card {
+    flex-direction: column;
+  }
+
+  .shoe-card h4 {
+    font-size: 21px;
+  }
+  .shoe-card img {
+    width: 190px;
+  }
+  .footer-heading h4 {
+    font-size: 17px;
+  }
+  .footer-heading p {
+    font-size: 10px;
+  }
+  .footer-email input {
+    width: 106px;
+    height: 35px;
+    padding: 2px 2px;
+  }
+  .btn {
+    padding: 9px 5px;
+  }
 }

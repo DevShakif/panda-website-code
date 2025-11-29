@@ -143,9 +143,10 @@
   }
   .footer-email input {
     width: 106px;
+    height: 35px;
     padding: 2px 2px;
   }
   .btn {
-    padding: 12px 5px;
+    padding: 9px 5px;
   }
 }
