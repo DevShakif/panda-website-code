@@ -1,5 +1,5 @@
 /* desktop 1201px  */
-@media screen and (min-width: 1201px) {
+@media screen and (max-width: 1201px) {
   .hero-content * {
     margin-bottom: 5px;
   }
@@ -10,6 +10,21 @@
   }
   .hero-image img {
     width: 350px;
+  }
+
+  .category-cards-container {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .shoe-card * {
+    margin-bottom: 10px;
+  }
+  .shoe-card {
+    padding: 10px;
+  }
+  .shoe-card-container {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
   }
 }
 /* laptop devices starts from 1025px to 1200px */
@@ -26,18 +41,36 @@
     width: 300px;
   }
 
-  .category-cards-container {
-    flex-wrap: wrap;
-  }
   .card {
     margin-bottom: 20px;
+  }
+  /* .heading {
+    text-align: center;
+  } */
+  .category-cards-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .shoe-card-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .footer-container {
+    padding: 100px 246px;
+  }
+  .footer-heading h4 {
+    font-size: 29px;
+  }
+  .footer-email input {
+    width: 203px;
+    padding: 12px 16px;
   }
 }
 
 /* Tablet devices  starts from 769px to 1024px */
 @media screen and (max-width: 1024px) {
   .navbar-container {
-    flex-direction: column;
+    flex-direction: row-reverse;
     gap: 30px;
   }
   .hero-container {
@@ -57,6 +90,9 @@
   .heading {
     text-align: center;
   }
+  .footer-container {
+    padding: 90px 135px;
+  }
 }
 
 /* android device landscape   starts from 569px to 768px*/
@@ -65,13 +101,15 @@
     padding: 15px;
     text-align: center;
   }
+  .footer-container {
+    padding: 60px 25px;
+  }
 }
 
 /* android device portrait  maximum 300px */
 @media screen and (max-width: 568px) {
   .hero-container {
     flex-direction: column;
-    gap: 20px;
   }
   .hero-content {
     margin-left: 0;
@@ -87,7 +125,27 @@
   .btn {
     padding: 12px 20px;
   }
-  .card-3-bg {
-    min-width: 288px;
+  .card {
+    flex-direction: column;
+  }
+
+  .shoe-card h4 {
+    font-size: 21px;
+  }
+  .shoe-card img {
+    width: 190px;
+  }
+  .footer-heading h4 {
+    font-size: 17px;
+  }
+  .footer-heading p {
+    font-size: 10px;
+  }
+  .footer-email input {
+    width: 106px;
+    padding: 2px 2px;
+  }
+  .btn {
+    padding: 12px 5px;
   }
 }

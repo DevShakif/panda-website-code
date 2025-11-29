@@ -21,7 +21,7 @@
   display: none;
 }
 .container {
-  width: 78.3%;
+  width: 78.33%;
   margin: 0 auto;
 }
 .main-bg {
@@ -107,7 +107,7 @@
 .category-cards-container {
   display: flex;
   justify-content: space-between;
-  gap: 20px;
+  gap: 10px;
 }
 
 .card {
@@ -130,5 +130,83 @@
 }
 .card-3-bg {
   background-color: lightskyblue;
+  gap: 30px;
+}
+
+/* shoe section styles */
+.shoes {
+  margin-bottom: 100px;
+}
+.shoe-card-container {
+  display: flex;
+  justify-content: space-between;
   gap: 15px;
+}
+.shoe-card {
+  background-color: #ffffff;
+  padding: 24px;
+  width: 360px;
+  text-align: center;
+  border: 2px solid #929292;
+  border-radius: 20px;
+}
+.shoe-card * {
+  margin-bottom: 20px;
+}
+.shoe-card h4 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #1f1f1f;
+}
+
+.shoe-card .price {
+  font-size: 24px;
+  font-weight: 500;
+  color: #000000;
+}
+#card-btn-bg {
+  background-color: #000000;
+}
+
+/* bags style */
+
+.bag-card * {
+  margin-bottom: 10px;
+}
+
+/* footer styles */
+.footer-container {
+  background-color: #fff2f1;
+  margin-bottom: 75px;
+  text-align: center;
+  padding: 146px 246px;
+}
+.footer-heading {
+  margin-bottom: 20px;
+}
+.footer-heading h4 {
+  margin-bottom: 10px;
+  font-size: 30px;
+  font-weight: 600;
+  color: #1f1f1f;
+}
+
+.footer-heading p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #707070;
+}
+/* .footer-email {
+  display: flex;
+  align-items: center;
+} */
+.footer-email input {
+  width: 450px;
+  height: 42px;
+  padding: 15px 35px;
+}
+.footer-btn {
+  border-radius: 0;
+  margin-left: -4px;
+  padding: 12px 35px;
 }
